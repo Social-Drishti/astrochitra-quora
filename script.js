@@ -18,7 +18,7 @@
     {
       eyebrow: "Step 4 of 4",
       title: "Ask Your Question",
-      body: "Type what\u2019s on your mind, then tap Add \u2014 Guruji replies personally."
+      body: "Type what\u2019s on your mind, then tap Add \u2014 AstroChitra replies personally."
     }
   ];
 
