@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>AstroChitra — Ask on Quora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stage">
+
+    <!-- glow motif (sun/moon echo from logo) -->
+    <div class="glow"></div>
+
+    <!-- HEADER -->
+    <header class="head">
+      <img class="head__logo" src="assets/logo.svg" alt="AstroChitra">
+      <h1 class="head__title">Ask AstroChitra<br>on Quora</h1>
+    </header>
+
+    <!-- STEP CARD -->
+    <section class="panel" aria-label="How it works">
+
+      <div class="frame">
+        <div class="frame__notch"></div>
+        <div class="frame__shots" id="shots">
+          <img src="assets/step1.jpeg" alt="Search AstroChitra on Quora" class="frame__img is-active" data-step="0">
+          <img src="assets/step2.jpeg" alt="Open the AstroChitra profile and tap Ask" class="frame__img" data-step="1">
+          <img src="assets/step3.jpeg" alt="Type your question and submit" class="frame__img" data-step="2">
+        </div>
+        <button class="frame__nav frame__nav--prev" id="prevBtn" aria-label="Previous step">&#8249;</button>
+        <button class="frame__nav frame__nav--next" id="nextBtn" aria-label="Next step">&#8250;</button>
+      </div>
+
+      <div class="steptext">
+        <span class="steptext__eyebrow" id="stepEyebrow">Step 1 of 3</span>
+        <p class="steptext__title" id="stepTitle">Search "AstroChitra"</p>
+        <p class="steptext__body" id="stepBody">Open Quora, continue with Google, and search our name.</p>
+      </div>
+
+      <div class="dots" id="dots">
+        <button class="dot is-active" data-step="0" aria-label="Step 1"></button>
+        <button class="dot" data-step="1" aria-label="Step 2"></button>
+        <button class="dot" data-step="2" aria-label="Step 3"></button>
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+    <footer class="cta">
+      <a class="cta__btn" href="https://www.quora.com/profile/AstroChitra" target="_blank" rel="noopener">
+        Open Quora &amp; Ask
+        <span class="cta__arrow">&#8594;</span>
+      </a>
+      <p class="cta__note">New here? Tap <strong>Continue with Google</strong> — takes 10 seconds.</p>
+    </footer>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
