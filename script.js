@@ -1,19 +1,24 @@
 (function(){
   var steps = [
     {
-      eyebrow: "Step 1 of 3",
-      title: "Search \u201CAstroChitra\u201D",
-      body: "Open Quora, continue with Google, and search our name."
+      eyebrow: "Step 1 of 4",
+      title: "Tap Login",
+      body: "Open Quora and tap Login to get started."
     },
     {
-      eyebrow: "Step 2 of 3",
-      title: "Open our profile & tap Ask",
-      body: "Find the AstroChitra profile, then tap the Ask button."
+      eyebrow: "Step 2 of 4",
+      title: "Continue with Google",
+      body: "Google sign-in is the quickest way in \u2014 just one tap."
     },
     {
-      eyebrow: "Step 3 of 3",
-      title: "Type your question & submit",
-      body: "Write what's on your mind, then tap Add \u2014 Guruji replies personally."
+      eyebrow: "Step 3 of 4",
+      title: "Tap Ask",
+      body: "Find the AstroChitra profile and hit the Ask button."
+    },
+    {
+      eyebrow: "Step 4 of 4",
+      title: "Ask Your Question",
+      body: "Type what\u2019s on your mind, then tap Add \u2014 Guruji replies personally."
     }
   ];
 
